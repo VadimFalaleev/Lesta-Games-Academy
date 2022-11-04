@@ -1,17 +1,20 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MouseControl : MonoBehaviour
 {
-    public float speed;
 
-    void FixedUpdate()
+    private Vector3 offset;
+
+    void OnMouseDown()
     {
-        if (Input.GetMouseButton(0))
-        {
-            Vector2 mouse = new(Input.GetAxis("Mouse X") * speed * Time.deltaTime, Input.GetAxis("Mouse Y") * speed * Time.deltaTime);
-            transform.Translate(mouse * speed);
-        }
+
+        offset = gameObject.transform.position -
+            Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10.0f));
+    }
+
+    void OnMouseDrag()
+    {
+        Vector3 newPosition = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10.0f);
+        transform.position = Camera.main.ScreenToWorldPoint(newPosition) + offset;
     }
 }

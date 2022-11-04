@@ -191,7 +191,8 @@ PrefabInstance:
       propertyPath: m_GravityScale
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6331378323923270711, guid: f1873ea95ad0bae469c0aefce90d7f87, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f1873ea95ad0bae469c0aefce90d7f87, type: 3}
 --- !u!1 &258997170
@@ -340,7 +341,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59dab69a868a5874b9eec51a74e07eb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
 --- !u!1001 &282794422
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -409,7 +409,8 @@ PrefabInstance:
       propertyPath: m_GravityScale
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6331378323923270711, guid: f1873ea95ad0bae469c0aefce90d7f87, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f1873ea95ad0bae469c0aefce90d7f87, type: 3}
 --- !u!1001 &314088277
@@ -480,7 +481,8 @@ PrefabInstance:
       propertyPath: m_GravityScale
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6331378323923270711, guid: f1873ea95ad0bae469c0aefce90d7f87, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f1873ea95ad0bae469c0aefce90d7f87, type: 3}
 --- !u!1 &519420028
@@ -635,7 +637,8 @@ PrefabInstance:
       propertyPath: m_GravityScale
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6331378323923270711, guid: f1873ea95ad0bae469c0aefce90d7f87, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f1873ea95ad0bae469c0aefce90d7f87, type: 3}
 --- !u!1 &1173051995
@@ -784,7 +787,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59dab69a868a5874b9eec51a74e07eb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
 --- !u!1 &1332706200
 GameObject:
   m_ObjectHideFlags: 0
@@ -937,7 +939,8 @@ PrefabInstance:
       propertyPath: m_GravityScale
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6331378323923270711, guid: f1873ea95ad0bae469c0aefce90d7f87, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f1873ea95ad0bae469c0aefce90d7f87, type: 3}
 --- !u!1 &1968549820
@@ -1086,7 +1089,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59dab69a868a5874b9eec51a74e07eb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
 --- !u!1001 &6331378322609824969
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1155,6 +1157,7 @@ PrefabInstance:
       propertyPath: m_GravityScale
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6331378323923270711, guid: f1873ea95ad0bae469c0aefce90d7f87, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f1873ea95ad0bae469c0aefce90d7f87, type: 3}
